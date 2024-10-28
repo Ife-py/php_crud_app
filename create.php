@@ -11,7 +11,7 @@
         <header class="d-flex justify-content-between my-4">
             <h1>Add New Book(s)</h1>
             <div>
-                <a href="" class="btn btn-primary">Book</a>
+                <a href="index.php" class="btn btn-primary">Back</a>
             </div>
         </header>
         <form action="process.php" method="post">
@@ -22,7 +22,7 @@
                 <input type="text" class="form-control" name="author" placeholder="Author name">
             </div>
             <div class="form-element my-4">
-                <select name="typo" class="form-control">
+                <select name="type" class="form-control">
                     <option value="">Select Book Type</option>
                     <option value="Adventure">Adventure</option>
                     <option value="Fantasy">Fantasy</option>
